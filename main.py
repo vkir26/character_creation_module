@@ -58,7 +58,7 @@ def start_training(char_name: str, char_class: str, spec: str) -> str:
     return 'Тренировка окончена.'
 
 
-def choice_char_class():
+def choice_char_class() -> str | None:
     approve_choice = None
     char_class = None
     while approve_choice != 'y':
